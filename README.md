@@ -12,4 +12,10 @@ Follow the usual Elixir install.
 
 ## Accessing
 
+### Using the Cards Component render
+
+Head to `localhost:4000/cards`
+
+### Using the HomeDash CardsLive render
+
 Head to `localhost:4000/home-dash/cards`

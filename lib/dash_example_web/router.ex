@@ -18,6 +18,7 @@ defmodule DashExampleWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/cards", CardsLive
   end
 
   scope "/home-dash", HomeDashWeb do
